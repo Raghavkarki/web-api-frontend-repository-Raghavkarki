@@ -1,18 +1,25 @@
 import React from "react";
+import playStore from "../../../images/playstore.png";
+import logo from "../../../images/mainlogo.png";
+import appStore from "../../../images/Appstore.png";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer id="footer">
       <div className="leftFooter">
-        <h4>Good Shoes available</h4>
+        <h4>DOWNLOAD OUR APP</h4>
+        <p>Download App for Android and IOS mobile phone</p>
+        <img src={playStore} alt="playstore" />    
+        <img src={appStore} alt="Appstore" />
       </div>
 
       <div className="midFooter">
-        <h1>Easy Shoe Store.</h1>
+      < img src={logo} alt="mainlogo" />
+        <h1>The MerchPerch.</h1>
         <p>Customer Satisfaction is our motto</p>
 
-        <p>Copyrights 2021 &copy; Easy Shoe Store</p>
+        <p>Copyrights 2021 &copy; The MerchPerch</p>
       </div>
 
       <div className="rightFooter">

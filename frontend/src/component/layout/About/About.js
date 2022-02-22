@@ -11,8 +11,8 @@ const About = () => {
 
         <div>
           <div>
-            <Typography>Easy Shoe Store</Typography>
-            <span>Easy Shoe Store for your shoes</span>
+            <Typography>The MerchPerch</Typography>
+            <span>The MerchPerch for Shopping your Goods</span>
           </div>
         </div>
       </div>

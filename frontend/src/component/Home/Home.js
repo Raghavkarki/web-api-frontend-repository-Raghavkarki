@@ -27,10 +27,10 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Easy Shoe Store" />
+          <MetaData title="The MerchPerch" />
 
           <div className="banner">
-            <p>Welcome to Easy Shoe Store</p>
+            <p>Welcome to The MerchPerch</p>
             <h1>FIND AMAZING SHOES BELOW</h1>
 
             <a href="#container">
@@ -40,7 +40,7 @@ const Home = () => {
             </a>
           </div>
 
-          <h2 className="homeHeading">Featured Shoes Collection</h2>
+          <h2 className="homeHeading">Featured  Collection</h2>
 
           <div className="container" id="container">
             {products?.length > 0 ? (

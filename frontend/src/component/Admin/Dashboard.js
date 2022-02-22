@@ -69,7 +69,7 @@ const Dashboard = () => {
       <Sidebar />
 
       <div className="dashboardContainer">
-        <Typography component="h1">Easy Shoe Store</Typography>
+        <Typography component="h1">The MerchPerch</Typography>
 
         <div className="dashboardSummary">
           <div>

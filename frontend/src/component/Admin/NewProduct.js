@@ -28,11 +28,11 @@ const NewProduct = ({ history }) => {
   const [images, setImages] = useState("");
 
   const categories = [
-    "MenShoes",
-    "FemaleShoes",
-    "CasualShoes",
-    "BusinessAttireShoes",
-    "SportsShoes",
+    "T-Shirt",
+    "Pants",
+    "Shoes",
+    "Sports Wears",
+    "Hoddies",
   ];
 
   useEffect(() => {

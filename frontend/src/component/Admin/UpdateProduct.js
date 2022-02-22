@@ -38,11 +38,11 @@ const UpdateProduct = ({ history, match }) => {
   const [oldImages, setOldImages] = useState("");
 
   const categories = [
-    "MenShoes",
-    "FemaleShoes",
-    "CasualShoes",
-    "BusinessAttireShoes",
-    "SportsShoes",
+    "T-Shirt",
+    "Pants",
+    "Shoes",
+    "Sports Wears",
+    "Hoddies",
   ];
 
   const productId = match.params.id;

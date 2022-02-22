@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
-import logo from "../../../images/shoelogo.png";
+import logo from "../../../images/mainlogo.png";
 
 const options = {
   burgerColorHover: "#eb4034",
