@@ -31,7 +31,7 @@ const Home = () => {
 
           <div className="banner">
             <p>Welcome to The MerchPerch</p>
-            <h1>FIND AMAZING SHOES BELOW</h1>
+            <h1>FIND AMAZING Products Below:</h1>               
 
             <a href="#container">
               <button>
